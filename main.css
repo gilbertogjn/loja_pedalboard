@@ -1,0 +1,57 @@
+#carouselExampleCaptions .carousel-inner img {
+    height: 600px; 
+    object-fit: cover;
+}
+
+nav {
+  background-color: #050517;
+}
+
+.navbar-brand, .nav-link {
+  color: #EFC88B;
+}
+
+.nav-link:hover {
+  color: #F4E3B2;
+}
+
+.nav-link.active {
+  color: #CF5C36!important;
+}
+
+#cabecalho {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7));
+}
+
+.carousel-caption {
+  text-align: left;
+}
+
+.carousel-caption h2 {
+  font-size: 46px;
+}
+
+#produtos {
+  padding-top: 70px;
+}
+
+.btn {
+  background-color: #050517;
+  color: #EFC88B;
+}
+
+.btn:hover {
+  background-color: #050517e3;
+  color: #F4E3B2;
+}

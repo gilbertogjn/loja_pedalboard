@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PedalBoard - Pedais de Guitarra</title>
+  <link rel="stylesheet" href="./lib/bootstrap.min.css">
+  <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+  <header id="cabecalho">
+    <nav class="navbar navbar-dark navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#home">Pedal<strong style="color: #CF5C36;">Board</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#produtos">Produtos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <section id="home">
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://cdn.pixabay.com/photo/2017/06/18/10/11/pedals-2415060_1280.jpg" class="d-block w-100"
+              alt="Pedais de guitarra 1">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <h2>Confira as mais recentes novidades</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2017/08/01/23/03/music-2568488_1280.jpg" class="d-block w-100"
+              alt="Pedais de guitarra 1">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <h2>Pedais que atendem as suas necessidades</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.pixabay.com/photo/2015/09/13/03/01/pedals-937652_1280.jpg" class="d-block w-100"
+              alt="Pedais de guitarra 1">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+              <h2>Versatilidade, qualidade e robustez</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="produtos" class="container mb-5">
+      <h2>Produtos</h2>
+      <div class="row mt-4">
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://rvb-img.reverb.com/image/upload/s--TqqD-jw8--/f_auto,t_large/v1652853461/b1tl9eznmx4artiyrmx9.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Ibanez - Tube Screamer</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam, nisi corporis
+                provident tenetur veniam, itaque</p>
+              <a href="#" class="btn">Saiba +</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://rvb-img.reverb.com/image/upload/s--hxiUsaNW--/f_auto,t_large/v1594403059/hc5qn2vvuwcwp8lbjf4f.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Boss - Super OverDrive</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam, nisi corporis
+                provident tenetur veniam, itaque</p>
+              <a href="#" class="btn">Saiba +</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://rvb-img.reverb.com/image/upload/s--_yQwtBbh--/f_auto,t_large/v1583428382/r1vnjjkdbqc1mom11oo3.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Boss - Blues Driver</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam, nisi corporis
+                provident tenetur veniam, itaque</p>
+              <a href="#" class="btn">Saiba +</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://rvb-img.reverb.com/image/upload/s--pgOOo3v1--/a_0/f_auto,t_large/v1644542341/ajsghhdo7tmpvf1reiki.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Strymon - Timeline</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam, nisi corporis
+                provident tenetur veniam, itaque</p>
+              <a href="#" class="btn">Saiba +</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://rvb-img.reverb.com/image/upload/s--_oj0bh4L--/a_0/f_auto,t_large/v1635243005/wkjkblxu1wdfgsfkmpwu.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Hooke Reverb</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam, nisi corporis
+                provident tenetur veniam, itaque</p>
+              <a href="#" class="btn">Saiba +</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+          <div class="card">
+            <img class="card-img-top"
+              src="https://rvb-img.reverb.com/image/upload/s--QIKracox--/f_auto,t_supersize/v1628175196/cm9fzlfdqulzav1rmalv.jpg"
+              alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Digitech Drop</h5>
+              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos quam, nisi corporis
+                provident tenetur veniam, itaque</p>
+              <a href="#" class="btn">Saiba +</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
